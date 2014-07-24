@@ -10,8 +10,6 @@ namespace WebSample.Controllers
     public class HomeController : Controller
     {
         private static Logger _logger = LogManager.GetCurrentClassLogger();
-        //
-        // GET: /Home/
         public ActionResult Index()
         {
             _logger.Info("Hello, Nlog on Web");

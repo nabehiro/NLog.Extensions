@@ -21,6 +21,7 @@ PM> Install-Package NLog.Config
 
 
 # HipChat Target.
+HipChat notification target requires HipChat API v1.0 (not v2.0!!) auth token and HipChat room ID.
 
 ```XML
 <targets>
@@ -50,7 +51,7 @@ Using ASP.NET Request Summary Render, add "${aspnet-request-summary}" into layou
 
 output log
 
-```TXT
+```
 This is message.
 
 [URL] http://localhost:2291/
@@ -67,4 +68,3 @@ This is message.
     [Host] localhost:2291
     [User-Agent] Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
 ```
-
