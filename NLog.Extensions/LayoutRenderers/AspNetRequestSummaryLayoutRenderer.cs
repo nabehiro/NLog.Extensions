@@ -9,8 +9,8 @@ using System.Web;
 
 namespace NLog.Extensions.LayoutRenderers
 {
-    [LayoutRenderer("aspnet-request-detail")]
-    public class AspNetRequestDetailLayoutRenderer : LayoutRenderer
+    [LayoutRenderer("aspnet-request-summary")]
+    public class AspNetRequestSummaryLayoutRenderer : LayoutRenderer
     {
         private const string _mask = "*****";
 
@@ -18,7 +18,7 @@ namespace NLog.Extensions.LayoutRenderers
         public string MaskKeys { get; set; }
         private string[] _maskKeys;
 
-        public AspNetRequestDetailLayoutRenderer()
+        public AspNetRequestSummaryLayoutRenderer()
         {
             MaskKeys = "password,pass";
         }

@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LayoutRenderers\AspNetRequestDetailLayoutRenderer.cs" />
+    <Compile Include="LayoutRenderers\AspNetRequestSummaryLayoutRenderer.cs" />
     <Compile Include="LayoutRenderers\Wrappers\TruncateLayoutRendererWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Targets\HipChatTarget.cs" />

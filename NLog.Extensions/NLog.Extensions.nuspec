@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Nlog.Extensions</id>
+    <version>$version$</version>
+    <title>Nlog Extensions</title>
+    <authors>nabehiro</authors>
+    <owners>nabehiro</owners>
+    <!-- <licenseUrl></licenseUrl> -->
+    <projectUrl>http://github.com/nabehiro/Nlog.Extensions</projectUrl>
+    <!-- <iconUrl></iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Simple Http Basic, Digest Authentication Module with IP Restriction.</summary>
+    <description>
+      Nlog Extensions.
+      [Features]
+      - HipChat Target.
+      - ASP.NET Request Summary Renderer.
+      - Truncate Renderer.
+
+      If you find bugs or have requests for improvement, contact me. http://github.com/nabehiro/NLog.Extensions
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Nlog Extensions HipChat log</tags>
+  </metadata>
+</package>
