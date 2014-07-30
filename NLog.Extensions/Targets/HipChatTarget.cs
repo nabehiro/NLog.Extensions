@@ -62,6 +62,7 @@ namespace NLog.Extensions.Targets
             data["room_id"] = RoomId;
             data["from"] = From;
             data["message_format"] = MessageFormat;
+            data["notify"] = Notify ? "1" : "0";
             data["message"] = message;
 
             var resByte = client.UploadValues(EndPoint + AuthToken, data);
