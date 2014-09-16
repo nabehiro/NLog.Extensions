@@ -26,19 +26,6 @@ Add to extensions element.
 </extensions>
 ```
 
-```XML
-<targets>
-	<!-- if layout contains mension(e.g. @nabehiro), HipChat App(iPhone) can receive message by push notifications. -->
-    <target xsi:type="HipChat"
-        name="h"
-        layout="@nabehiro ${newline} ${truncate:length=800:inner=${message}}"
-        authToken="[ enter auth token ]"
-        roomId="[ enter room id ]"
-        from="hoge"
-        color="red" />
-</targets>
-```
-
 # HipChat Target.
 HipChat notification target requires HipChat API v1.0 (not v2.0!!) auth token and HipChat room ID.
 
